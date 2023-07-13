@@ -1,0 +1,372 @@
+{
+    "status_code": 201,
+    "error": null,
+    "timestamp": 1689207183075,
+    "evaluation_token": "S-pB3ZKcAGzj9d2rfvghQO",
+    "entity_token": "P-M2avTT8D8ysJ79LEQcBl",
+    "parent_entity_token": null,
+    "application_token": "s0mtLK1FtAmxTj9DX9N1TvSy9vLjv62D",
+    "application_version_id": 1,
+    "champion_challenger_id": null,
+    "summary": {
+        "result": "success",
+        "score": 0.99,
+        "tags": [
+            "High Risk"
+        ],
+        "outcome_reasons": [],
+        "outcome": "Denied",
+        "services": {
+            "Socure 30": "executed"
+        },
+        "alloy_fraud_score": null
+    },
+    "supplied": {
+        "name_first": "Sherlock",
+        "name_last": "Deny",
+        "address_line_1": "221B Baker Street",
+        "address_line_2": "",
+        "address_city": "Miami",
+        "address_state": "FL",
+        "address_postal_code": "33129",
+        "address_country_code": "US",
+        "document_ssn": "987654321",
+        "email_address": "deny@email.com",
+        "birth_date": "1879-03-14"
+    },
+    "formatted": {
+        "name_first": "Sherlock",
+        "name_last": "Deny",
+        "address_line_1": "221B Baker Street",
+        "address_line_2": "",
+        "address_city": "Miami",
+        "address_state": "FL",
+        "address_postal_code": "33129",
+        "address_country_code": "US",
+        "document_ssn": "987654321",
+        "email_address": "deny@email.com",
+        "birth_date": "1879-03-14",
+        "age": "144"
+    },
+    "matching": {
+        "email": {
+            "score": 0.99,
+            "matched": [
+                "Socure 30"
+            ],
+            "unmatched": []
+        },
+        "name": {
+            "score": 0.99,
+            "matched": [
+                "Socure 30"
+            ],
+            "unmatched": []
+        },
+        "address": {
+            "score": 0.99,
+            "matched": [
+                "Socure 30"
+            ],
+            "unmatched": []
+        },
+        "dob": {
+            "score": 0.99,
+            "matched": [
+                "Socure 30"
+            ],
+            "unmatched": []
+        },
+        "ssn": {
+            "score": 0.99,
+            "matched": [
+                "Socure 30"
+            ],
+            "unmatched": []
+        },
+        "average_score": 0.99
+    },
+    "diligence": {
+        "watchlists": null,
+        "fraud": {
+            "average_score": 0.79,
+            "flags": [],
+            "sources": {
+                "Socure 30": {
+                    "normalized_score": 0.79,
+                    "raw_score": 0.99,
+                    "attribute": "Sigma Fraud Score"
+                }
+            },
+            "score": 0.79
+        },
+        "financial": null,
+        "identity_questions": null,
+        "device": null
+    },
+    "related_data": {
+        "social": [
+            {
+                "type": "Facebook",
+                "url": "https://www.facebook.com/dog",
+                "id": "dog"
+            },
+            {
+                "type": "Google Plus",
+                "url": "https://plus.google.com/dog",
+                "id": "dog"
+            }
+        ]
+    },
+    "raw_responses": {
+        "Socure 30": [
+            {
+                "referenceId": "b72019e5-0a37-4f74-b78c-e579536646ae",
+                "alertList": {
+                    "reasonCodes": [],
+                    "matches": []
+                },
+                "nameAddressCorrelation": {
+                    "reasonCodes": [],
+                    "score": 0.99
+                },
+                "nameEmailCorrelation": {
+                    "reasonCodes": [],
+                    "score": 0.99
+                },
+                "namePhoneCorrelation": {
+                    "reasonCodes": [],
+                    "score": 0.99
+                },
+                "fraud": {
+                    "reasonCodes": [],
+                    "scores": [
+                        {
+                            "name": "generic",
+                            "version": "3.0",
+                            "score": 0.1
+                        },
+                        {
+                            "name": "sigma",
+                            "version": "",
+                            "score": 0.99
+                        }
+                    ]
+                },
+                "synthetic": {
+                    "scores": [
+                        {
+                            "name": "synthetic",
+                            "version": "1.0",
+                            "score": 0.1
+                        }
+                    ]
+                },
+                "kyc": {
+                    "reasonCodes": [],
+                    "fieldValidations": {
+                        "firstName": 0.99,
+                        "surName": 0.99,
+                        "streetAddress": 0.99,
+                        "city": 0.99,
+                        "state": 0.99,
+                        "zip": 0.99,
+                        "mobileNumber": 0.99,
+                        "dob": 0.99,
+                        "ssn": 0.99,
+                        "driverLicense": 0.99
+                    }
+                },
+                "kycPlus": {
+                    "reasonCodes": [],
+                    "fieldValidations": {
+                        "firstName": 0.99,
+                        "surName": 0.99,
+                        "streetAddress": 0.99,
+                        "city": 0.99,
+                        "state": 0.99,
+                        "zip": 0.99,
+                        "mobileNumber": 0.99,
+                        "dob": 0.99,
+                        "ssn": 0.99,
+                        "driverLicense": 0.99
+                    },
+                    "bestMatchedEntity": {
+                        "firstName": "Sherlock",
+                        "surName": "Deny",
+                        "middleName": "Doc",
+                        "suffix": "Jr",
+                        "ssn": "987654321",
+                        "dob": "1879-03-14",
+                        "mobileNumber": "12063588927",
+                        "normalizedAddress": {
+                            "streetAddress": "221B Baker Street, Apt 2",
+                            "city": "Miami",
+                            "state": "FL",
+                            "zip": "33129"
+                        },
+                        "associatedPhoneNumbers": [
+                            {
+                                "phoneNumber": "+13475551234",
+                                "type": "landline"
+                            }
+                        ],
+                        "associatedAddresses": [
+                            {
+                                "streetAddress": "221B Baker Street, Apt 2",
+                                "city": "Miami",
+                                "state": "FL",
+                                "zip": "33129",
+                                "firstSeenDate": "2020-01-01",
+                                "reasonCodes": []
+                            }
+                        ]
+                    }
+                },
+                "social": {
+                    "profilesFound": [
+                        "https://gravatar.com/dog",
+                        "http://vimeo.com/dog",
+                        "https://www.facebook.com/dog",
+                        "https://plus.google.com/dog"
+                    ],
+                    "reasonCodes": []
+                },
+                "addressRisk": {
+                    "score": 0,
+                    "reasonCodes": []
+                },
+                "emailRisk": {
+                    "score": 0,
+                    "reasonCodes": []
+                },
+                "phoneRisk": {
+                    "score": 0,
+                    "reasonCodes": []
+                },
+                "prefill": {
+                    "firstName": "John",
+                    "surName": "Smith",
+                    "middleName": "Doc",
+                    "suffix": "Jr",
+                    "dob": "1879-03-14",
+                    "streetAddress": "221B Baker Street, Apt 2",
+                    "city": "Miami",
+                    "state": "FL",
+                    "zip": "33129",
+                    "associatedAddresses": [
+                        {
+                            "streetAddress": "221B Baker Street",
+                            "city": "Miami",
+                            "state": "FL",
+                            "zip": "33129"
+                        },
+                        {
+                            "streetAddress": "221B Baker Street",
+                            "city": "Miami",
+                            "state": "FL",
+                            "zip": "33129"
+                        },
+                        {
+                            "streetAddress": "221B Baker Street",
+                            "city": "Miami",
+                            "state": "FL",
+                            "zip": "33129"
+                        }
+                    ]
+                },
+                "accountIntelligence": {
+                    "reasonCodes": [],
+                    "account": {
+                        "availabilityScore": 1,
+                        "ownershipScore": 1
+                    }
+                },
+                "deviceRisk": {
+                    "score": 0
+                },
+                "error": {
+                    "msg": "\"\""
+                },
+                "status": "",
+                "msg": ""
+            }
+        ]
+    },
+    "formatted_responses": {
+        "Socure 30": {
+            "data": {
+                "reasonCodes": [],
+                "watchLists": {
+                    "internationalPEP": 0,
+                    "internationalOFAC": 0,
+                    "domesticPEP": 0,
+                    "domesticOFAC": 0,
+                    "ofac": 0,
+                    "adverseMedia": 0,
+                    "enforcement": 0
+                },
+                "fraudScores": {
+                    "generic": 0.1,
+                    "sigma": 0.99,
+                    "sigmaSynthetic": 0.1
+                },
+                "kycValidation": {
+                    "firstName": true,
+                    "surName": true,
+                    "streetAddress": true,
+                    "city": true,
+                    "state": true,
+                    "zip": true,
+                    "dob": true,
+                    "mobileNumber": true,
+                    "ssn": true
+                },
+                "error_message": "\"\"",
+                "error_message_type_2": "\"\"",
+                "global_watchlist": {
+                    "r180": false,
+                    "r181": false,
+                    "r182": false,
+                    "r183": false,
+                    "r184": false,
+                    "r185": false,
+                    "r186": false
+                },
+                "eCBSV": {
+                    "I998": false,
+                    "R998": true,
+                    "I999": false,
+                    "R999": false
+                }
+            },
+            "matching": {
+                "email": {
+                    "score": 0.99,
+                    "matched": true
+                },
+                "name": {
+                    "score": 0.99,
+                    "matched": true
+                },
+                "address": {
+                    "score": 0.99,
+                    "matched": true
+                },
+                "dob": {
+                    "score": 0.99,
+                    "matched": true
+                },
+                "phone": {
+                    "score": 0.99,
+                    "matched": true
+                },
+                "ssn": {
+                    "score": 0.99,
+                    "matched": true
+                }
+            }
+        }
+    },
+    "audit_archive": null
+}
